@@ -24,7 +24,7 @@ export default function AddTodoform ({onSubmit} :AddTodoFormProps ){
             placeholder=" To be done?" 
             className="rounded-s-md bg-transparent grow border text-white border-gray-500 p-2"
             />
-            <button type="submit" className="w-16 rounded-e-md bg-gray-500 text-white font-semibold transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+            <button type="submit" className="bg-gradient-to-r from-sky-500 to-indigo-500 w-16 rounded-e-md bg-gray-500 text-white font-semibold transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                 <p className="animate-bounce">Add</p>
             </button>
         </form>
